@@ -13,6 +13,7 @@ PHP project done using laravel,mysql,blade.
 ## Running locally
 
 1.git clone gibhub-link
-2.composer install
+2.composer install --install packages
 3.At the root of your project create an .env file with the following contents in .env-example file for  database configuration
-4.php artisan migrate
+4.php artisan migrate  --database migration
+5. php artsan serve --start the server
